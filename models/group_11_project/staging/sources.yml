@@ -3,7 +3,7 @@ version: 2
 sources:
   - name: raw_project
     description: Raw data loaded from NYC Open Data
-    database: brianimperiale-cis9440
+    database: mohammadmahmud
     schema: group_project
     tables:
       - name: primary_data_open_restaurant_inspections
