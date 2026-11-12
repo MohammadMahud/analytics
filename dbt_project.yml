@@ -34,3 +34,21 @@ models:
           +materialized: table
         dot_311:
           +materialized: table
+
+    group_11_project:
+      staging:
+        +materialized: table
+        +schema: group_project_staging
+
+      marts:
+        +materialized: table
+        +schema: group_project_marts
+      
+        conformed:
+          +materialized: table
+
+        inspections:
+          +materialized: table
+
+        311_service_requests:
+          +materialized: table
