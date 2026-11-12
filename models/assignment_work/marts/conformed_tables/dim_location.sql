@@ -1,6 +1,6 @@
 -- Location dimension shared by both data sources
 -- Grain: one row per distinct combination of borough / council_district / zip.
-
+-- Trying to make sure things workout on my GitHub
 WITH stg_311 AS (
     SELECT * FROM {{ ref('stg_nyc_311_dot') }}
 ),
