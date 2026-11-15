@@ -1,6 +1,3 @@
-
-stg_source_service_requests_project_sql.txt
-100%
 -- Clean and standardize 311 service request data
 -- One row per service request
 
@@ -96,4 +93,3 @@ cleaned AS (
 
 SELECT * FROM cleaned
 -- All should be part of this table after running: stg_source_service_requests_project.sql
-Displaying stg_source_service_requests_project_sql.txt.
