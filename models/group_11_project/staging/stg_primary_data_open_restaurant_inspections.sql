@@ -60,8 +60,8 @@ cleaned AS (
    FROM source
 
    -- Filters
-   -- WHERE inspectedon >= DATE_SUB(CURRENT_DATE(), INTERVAL 5 YEAR)
-   WHERE CAST(inspectedon AS TIMESTAMP) >= TIMESTAMP(DATE_SUB(CURRENT_DATE(), INTERVAL 5 YEAR))
+   -- WHERE inspectedon >= DATE_SUB(CURRENT_DATE(), INTERVAL 7 YEAR)
+   WHERE CAST(inspectedon AS TIMESTAMP) >= TIMESTAMP(DATE_SUB(CURRENT_DATE(), INTERVAL 7 YEAR))
    
 
    -- Deduplicate
